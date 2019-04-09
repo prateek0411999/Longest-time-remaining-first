@@ -19,13 +19,7 @@ struct process p[3];
 int totaltime = 0; 
 int prefinaltotal = 0; 
   
-//sort() 
-bool compare(process p1, process p2) 
-{ 
-    
-    return p1.AT < p2.AT; 
-} 
-  
+
 //largest Arrival Time 
 int findlargest(int at) 
 { 
@@ -124,9 +118,6 @@ int main()
         cout << endl; 
     } 
     cout << endl; 
-  
-    // soritng process according to Arrival Time 
-    sort(p, p + 4, compare); 
   
     //initial time when execution starts 
     totaltime += p[0].AT; 
