@@ -80,11 +80,11 @@ int main()
     for (i = 0; i < 3; i++) { 
         if(i==0)
 		{
-		p[i].processno = 2132 ; 
+		p[i].processno = 2102 ; 
     	}
     	else if(i==1)
     	{
-    		p[i].processno = 2102 ; 
+    		p[i].processno = 2132 ; 
 		}
 		else
 		{
