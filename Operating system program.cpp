@@ -40,12 +40,12 @@ int findCT()
     int flag = 0; 
     int i = p[0].AT; 
     while (1) { 
-        if (i <= 4) { 
+        if (i <= 3) { 
             index = findlargest(i); 
         } 
   
         else
-            index = findlargest(4); 
+            index = findlargest(3); 
         cout << "Process executing at time " << totaltime << " is: P" << index + 1 << "\t"; 
   
         p[index].BT -= 1; 
